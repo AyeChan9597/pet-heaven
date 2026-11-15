@@ -307,7 +307,7 @@ export function HomePage() {
                 className="btn light"
                 to="/donate"
               >
-                💝 Donate (Demo)
+                💝 Donate
               </Link>
             )}
           </div>
