@@ -1764,7 +1764,7 @@ export function AuthPage({ mode }) {
 
             <Field
               id="auth-pass"
-              label="Demo password *"
+              label="Password *"
             >
               <input
                 id="auth-pass"
@@ -1818,8 +1818,8 @@ export function AuthPage({ mode }) {
               type="submit"
             >
               {signup
-                ? "Create Demo Profile"
-                : "Log In (Demo)"}
+                ? "Create Profile"
+                : "Log In"}
             </button>
           </form>
 
