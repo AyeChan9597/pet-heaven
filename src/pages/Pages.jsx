@@ -169,7 +169,7 @@ export function HomePage() {
           
           <div className="hero-art">
             <img
-              src="public/images/pets.jpeg"
+              src="/images/pets.jpeg"
               alt="A dog and cat together"
               className="hero-pets-img"
             />
