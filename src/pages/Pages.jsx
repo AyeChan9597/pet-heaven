@@ -1710,8 +1710,7 @@ export function AuthPage({ mode }) {
           </p>
 
           <Notice>
-            Frontend demonstration only:
-            any valid email and password
+            Any valid email and password
             of 8+ characters works.
             Passwords are not saved or verified.
             Never enter real credentials.
