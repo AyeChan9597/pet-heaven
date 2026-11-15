@@ -1,0 +1,20 @@
+
+# Installed dependencies
+node_modules/
+
+# Generated production website
+dist/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local Netlify state
+.netlify/
+
+# Operating system files
+.DS_Store
+
+# Log files
+*.log
