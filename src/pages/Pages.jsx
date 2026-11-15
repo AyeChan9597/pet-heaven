@@ -1665,7 +1665,7 @@ export function AuthPage({ mode }) {
       form.password.length < 8
     ) {
       setError(
-        "Use a valid email and a demo password of at least 8 characters."
+        "Use a valid email and password at least 8 characters."
       );
       return;
     }
@@ -1705,8 +1705,8 @@ export function AuthPage({ mode }) {
 
           <p className="muted">
             {signup
-              ? "Create a demo profile."
-              : "Try the demo member interface."}
+              ? "Create a profile."
+              : "Log in to view your activity."}
           </p>
 
           <Notice>
