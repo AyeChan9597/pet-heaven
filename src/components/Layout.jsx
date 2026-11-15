@@ -241,7 +241,7 @@ export default function Layout({ children }) {
 
             {FEATURES.donations && (
               <Link to="/donate">
-                Donate (Demo)
+                Donate
               </Link>
             )}
 
@@ -257,7 +257,7 @@ export default function Layout({ children }) {
 
         <div className="wrap copyright">
           © {new Date().getFullYear()} Pet Heaven
-          {" · "}Coursework demo
+          {" · "}Coursework
           {" · "}No real adoptions or payments
         </div>
       </footer>

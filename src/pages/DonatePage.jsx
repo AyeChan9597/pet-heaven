@@ -29,7 +29,7 @@ export default function DonatePage() {
   const [form, setForm] = useState({
     name: user?.name || "",
     email: user?.email || "",
-    method: "PayNow (Demo)",
+    method: "PayNow",
     note: "",
     agree: false
   });
